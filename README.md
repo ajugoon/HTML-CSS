@@ -1,2 +1,2 @@
-# Y8-WebDev
-Code for Y8 Web Development Unit
+# WebDev
+Code for Web Development Unit
