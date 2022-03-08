@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background: linear-gradient(to right, yellow 50%, blue 0%);   
+    height:100vh;
+    text-align:center;
+}
+
+h1.option1 {
+    border: 5px solid DodgerBlue;
+    padding: 10px; /* This the space between the text and the red border */
+    border-bottom-left-radius: 25px;
+}
+
+h2.option1 {
+    border: 5px dotted orange;
+    padding: 10px; /* This the space between the text and the orange border */
+    border-bottom-right-radius: 25px;
+}
+
+p.option1 {
+	color: red;
+}
+
+p.option2 {
+	color: green;
+}
