@@ -1,0 +1,58 @@
+﻿/* Reference: https://www.w3schools.com/css/css_website_layout.asp  */
+
+body {
+  margin: 0;
+  background-color: darkseagreen;
+}
+
+/* Style the header */
+.header {
+    position: absolute;
+    left: 120px;
+    top: 50px;
+    width: 1200px;
+    height: 300px;
+    background: url("sustainable-cities.jpeg");
+    border: 5px solid darkolivegreen;
+
+}
+
+/* Style the text within the header */
+h1.option1 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: darkolivegreen;
+    border: 3px dotted blue;
+    padding: 5px;
+    padding-right: 10px;
+    font-family: cursive, sans-serif;
+    font-size: 30px;
+    font-style: italic;
+}
+
+/* The navbar container */
+/* Nice reference for "position": https://developer.mozilla.org/en-US/docs/Web/CSS/position */
+.top-nav {
+    overflow: hidden;
+    background-color: lightyellow;
+    position: sticky;
+    top: 5px;
+}
+
+/* Formatting of the navbar links within the anchor (<a>) tags */
+.top-nav a {
+    float: left;
+    display: block;
+    color: lightseagreen;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Links may be formatted to change color when hovered upon */
+.top-nav a:hover {
+    background-color: coral;
+    color: black;
+}
+
