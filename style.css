@@ -1,0 +1,11 @@
+img {
+  border: 1px solid #da3434;
+  border-radius: 4px;
+  padding: 5px;
+  width: 1000px;
+  opacity: 0.75;
+}
+
+img:hover {
+  box-shadow: 10px 5px 5px red;
+}
