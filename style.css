@@ -1,0 +1,24 @@
+img.features1 {
+  border: 3px solid darkred;
+  border-radius: 4px;
+  padding: 5px;
+  width: 1000px;
+  opacity: 0.75;
+}
+
+img.features2 {
+  border: 3px solid darkblue;
+  border-radius: 4px;
+  padding: 5px;
+  width: 1000px;
+  opacity: 0.75;
+}
+
+
+img.features1:hover {
+  box-shadow: 10px 5px 5px red;
+}
+
+img.features2:hover {
+  box-shadow: 10px 5px 5px blue;
+}
