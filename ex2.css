@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    background: linear-gradient(to bottom, crimson 50%, CornflowerBlue 0%);
+    height:100vh; /* 100% vertical height */
+    text-align:center;
+    color:#fff;
+}
+
+h1.option1 {
+    display: table; /* Keep the background to be the span of the text only */
+    background-color: darkgoldenrod;
+    border: 5px solid forestgreen;
+    padding: 10px; /* This the space between the text and the red border */
+    border-bottom-left-radius: 25px;
+    font-family: fantasy, sans-serif;
+}
+
+h1.option2 {
+    border: 3px solid orange;
+    padding: 10px; /* This the space between the text and the orange border */
+    border-bottom-left-radius: 25px;
+}
+
+h2.option1 {
+    color: DarkSeaGreen;
+    border: 4px dotted blue;
+    font-family: cursive, sans-serif;
+    font-size: 30px;
+    font-style: italic;
+}
+
+h2.option2 {
+    background-color: coral;
+    border: 4px dotted green;
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    font-style: bold;
+}
+
+
