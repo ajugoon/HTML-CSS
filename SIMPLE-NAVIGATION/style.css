@@ -1,10 +1,6 @@
 ﻿/* Reference: https://www.w3schools.com/css/css_website_layout.asp  */
 
-body {
-  margin: 0;
-  background-color: darkseagreen;
-}
-
+/* Style the body */
 body.page1 {
   margin: 0;
   background-color: darkseagreen;
