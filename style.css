@@ -1,0 +1,66 @@
+/* Simple Styling using external stylesheet */
+
+body.page1 {
+  margin: 0;
+  background-color: palegreen;
+}
+
+.rectangle {
+  height: 10px;
+  width: 1600px;
+  background-color: coral;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+p.bluetext {
+
+color: darkslateblue;
+
+}
+
+p.redtext{
+
+color: darkred;
+
+}
+
+/* This is only needed if you need a horizontal navbar. Creates an unordered list */
+ul {
+  position: fixed;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* This defines a list item in the overall list */
+li {
+  float: left;
+}
+
+
+/* This related to the "anchor" tags being used in the navbar */
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
